@@ -1,0 +1,33 @@
+*{
+    background-image: linear-gradient(rgb(0 , 0, 0, 0.5),rgb(0 , 0, 0, 0.5)), url(loginimage.jpg) ;
+    padding: auto;
+    margin: 0;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    width: cover;
+}
+.navbar-brand{
+    font-size: 30px; 
+    font-style:italic;
+    color: brown;
+    border-block: initial;
+
+}
+.nav navbar-nav{
+    color: aqua;
+    text-align: center;
+    text-decoration: solid;
+    border-top: 0rem;
+
+    
+}
+.Ab{
+    text-align: center;
+    text-align-last: center;
+    justify-content: center;
+    color: rgb(205, 255, 208);
+    padding-bottom: center;
+
+    
+}

@@ -1,0 +1,145 @@
+
+.body{
+    font-family:Arial;
+    margin: 0;
+    width:100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    
+
+    /* background-image: url('https://www.cdgroupcredentialing.com/wp-content/uploads/2019/07/logo-background-shapes-png-5.png'); */
+
+    background-size: cover;
+  }
+ 
+  .box{
+    width: 150px;
+    height: 40px;
+    float: left;
+    border:2px solid #ccc;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #888;
+ }
+ 
+ p.new{
+    width: 126px;
+    color: white;
+    background-color: #3190A5;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 1px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    color: #F0F0F0;
+ }
+ /* .header{
+     background-color: black;
+     display: flex;
+     align-items: baseline;
+     padding: .5rem;
+     gap: 1rem;
+ }
+ .link{
+     background:none;
+     border: none;
+     text-decoration: none;
+     color: blueviolet;
+     font-family: inherit;
+     font-size: inherit;
+     cursor: pointer;
+     padding: 0;
+ }
+ .link:hover{
+     color: #888;
+ }
+ .dropdown{
+     position: relative;
+
+ }
+ .dropdown-menu{
+     position: absolute;
+ } */
+ .container {
+
+    width:200px;
+
+    position: relative;
+
+}
+
+.click{
+
+    background-color: #f85f73;
+
+}
+
+.click:hover {
+
+    background-color: #B71C1C;
+
+}
+
+.click,.links {
+
+    padding: 12px;
+
+    font-size: 1.2em;
+
+    font-family: futura Md BT;
+
+    border: none;
+
+    outline: none;
+
+    width:200px;
+
+    color:rgb(0, 0, 0);
+
+    transition: 0.3s;
+
+}
+
+.list {
+
+    position: absolute;
+
+    transform: scaleY(0);
+
+    transform-origin: top;
+
+    transition: 0.3s;
+
+}
+
+.newlist {
+
+    transform: scaleY(1);
+
+}
+
+.links {
+
+    background-color: #283c63;
+
+}
+
+.links:hover {
+
+    background-color: #e5e9ec;
+
+    transform: scale(1.1);
+
+}

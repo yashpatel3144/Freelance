@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="post.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <div class="container">
+
+        <button class="click">Pick a Category</button>
+
+        <div class="list">
+
+            <button class="links">Desgin & Creativity</button>
+
+            <button class="links">Digital Marketing</button>
+
+            <button class="links">Music & Voice</button>
+
+            <button class="links">Developer</button>
+
+            <button class="links">Video & Animation</button>
+
+            <button class="links">Writing & Translate</button>
+
+        </div>
+
+    </div>
+    <script>
+
+        let click = document.querySelector('.click');
+
+        let list = document.querySelector('.list');
+
+        click.addEventListener("click",()=>{
+
+            list.classList.toggle('newlist');
+
+        });
+
+    </script>
+    </center>
+</body>
+</html>
